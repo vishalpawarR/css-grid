@@ -97,3 +97,9 @@ grid-column: 1 / 3;
 - This will make the item start at the first vertical line of the grid on the left and span to the 3rd line of the grid, consuming two columns.
 
 - Make the item with the class `item5` consume the last two columns of the grid.
+
+## 9 - Use grid-row to Control Spacing :
+
+- Of course, you can make items consume multiple rows just like you can with columns. You define the horizontal lines you want an item to start and stop at using the grid-row property on a grid item.
+
+- Make the element with the item5 class consume the last two rows.
