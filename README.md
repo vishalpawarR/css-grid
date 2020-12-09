@@ -133,3 +133,18 @@ grid-column: 1 / 3;
 - Using the `align-items` property on a grid container will set the vertical alignment for all the items in our grid.
 
 - Use it now to move all the items to the end of each cell.
+
+## 14 - Divide the Grid Into an Area Template :
+
+- You can group cells of your grid together into an area and give the area a custom name. Do this by using `grid-template-areas` on the container like this:
+
+```css
+grid-template-areas:
+  "header header header"
+  "advert content content"
+  "footer footer footer";
+```
+
+- The code above merges the top three cells together into an area named `header`, the bottom three cells into a `footer` area, and it makes two areas in the middle row; `advert` and `content`. Note: Every word in the code represents a cell and every pair of quotation marks represent a row. In addition to custom labels, you can use a period (`.`) to designate an empty cell in the grid.
+
+Place the area template so that the cell labeled `advert` becomes an empty cell.
