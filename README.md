@@ -251,3 +251,11 @@ repeat(auto-fill, minmax(60px, 1fr));
 - In the preview, when the viewport width is 300px or more, the number of columns changes from 1 to 2. The advertisement area then occupies the left column completely.
 
 - When the viewport width is `400px` or more, make the header area occupy the top row completely and the footer area occupy the bottom row completely.
+
+## 22 - Create Grids within Grids :
+
+- Turning an element into a grid only affects the behavior of its direct descendants. So by turning a direct descendant into a grid, you have a grid within a grid.
+
+- For example, by setting the `display` and `grid-template-columns` properties of the element with the `item3` class, you create a grid within your grid.
+
+- Turn the element with the `item3` class into a grid with two columns with a width of `auto` and `1fr` using `display` and `grid-template-columns`.
