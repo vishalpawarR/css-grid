@@ -52,3 +52,15 @@ grid-template-columns: auto 50px 10% 2fr 1fr;
 - This snippet creates five columns. The first column is as wide as its content, the second column is 50px, the third column is 10% of its container, and for the last two columns; the remaining space is divided into three sections, two are allocated for the fourth column, and one for the fifth.
 
 - Make a grid with three columns whose widths are as follows: 1fr, 100px, and 2fr.
+
+## 5 - Create a Column Gap Using grid-column-gap :
+
+- So far in the grids you have created, the columns have all been tight up against each other. Sometimes you want a gap in between the columns. To add a gap between the columns, use the `grid-column-gap` property like this:
+
+```css
+grid-column-gap: 10px;
+```
+
+- This creates 10px of empty space between all of our columns.
+
+- Give the columns in the grid a `20px` gap.
