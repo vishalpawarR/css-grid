@@ -243,3 +243,11 @@ repeat(auto-fill, minmax(60px, 1fr));
 > Note: If your container can't fit all your items on one row, it will move them down to a new one.
 
 - In the second grid, use `auto-fit` with `repeat` to fill the grid with columns that have a minimum width of `60px` and maximum of `1fr`. Then resize the preview to see the difference.
+
+## 21 - Use Media Queries to Create Responsive Layouts :
+
+- CSS Grid can be an easy way to make your site more responsive by using media queries to rearrange grid areas, change dimensions of a grid, and rearrange the placement of items.
+
+- In the preview, when the viewport width is 300px or more, the number of columns changes from 1 to 2. The advertisement area then occupies the left column completely.
+
+- When the viewport width is `400px` or more, make the header area occupy the top row completely and the footer area occupy the bottom row completely.
