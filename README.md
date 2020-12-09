@@ -103,3 +103,15 @@ grid-column: 1 / 3;
 - Of course, you can make items consume multiple rows just like you can with columns. You define the horizontal lines you want an item to start and stop at using the grid-row property on a grid item.
 
 - Make the element with the item5 class consume the last two rows.
+
+## 10 - Align an Item Horizontally using justify-self :
+
+- In CSS Grid, the content of each item is located in a box which is referred to as a cell. You can align the content's position within its cell horizontally using the `justify-self` property on a grid item. By default, this property has a value of `stretch`, which will make the content fill the whole width of the cell. This CSS Grid property accepts other values as well:
+
+- `start`: aligns the content at the left of the cell,
+
+- `center`: aligns the content in the center of the cell,
+
+- `end`: aligns the content at the right of the cell.
+
+- Use the `justify-self` property to center the item with the class `item2`.
