@@ -127,3 +127,9 @@ grid-column: 1 / 3;
 - Sometimes you want all the items in your CSS Grid to share the same alignment. You can use the previously learned properties and align them individually, or you can align them all at once horizontally by using `justify-items` on your grid container. This property can accept all the same values you learned about in the previous two challenges, the difference being that it will move all the items in our grid to the desired alignment.
 
 - Use this property to center all our items horizontally.
+
+## 13 - Align All Items Vertically using align-items :
+
+- Using the `align-items` property on a grid container will set the vertical alignment for all the items in our grid.
+
+- Use it now to move all the items to the end of each cell.
