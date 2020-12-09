@@ -26,3 +26,9 @@ Change the display of the div with the `container` class to `grid`.
 - This will give your grid two columns that are each 50px wide. The number of parameters given to the `grid-template-columns` property indicates the number of columns in the grid, and the value of each parameter indicates the width of each column.
 
 Give the grid container three columns that are each `100px` wide.
+
+## 3 - Add Rows with grid-template-rows :
+
+- The grid you created in the last challenge will set the number of rows automatically. To adjust the rows manually, use the `grid-template-rows` property in the same way you used `grid-template-columns` in previous challenge.
+
+Add two rows to the grid that are `50px` tall each.
